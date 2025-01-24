@@ -1,7 +1,6 @@
 # TabMixer: Advancing Tabular Data Analysis with an Enhanced MLP-Mixer Approach
 
-Welcome to the repository for **"TabMixer: Advancing Tabular Data Analysis with an Enhanced MLP-Mixer Approach"**. 
-
+Welcome to the repository for **"TabMixer: Advancing Tabular Data Analysis with an Enhanced MLP-Mixer Approach"**.  
 
 ## Requirements
 
@@ -47,4 +46,8 @@ python Feature_incremental.py
 ## Examples
 
 You can find example datasets and usage scenarios in the **`Example`** folder. These examples provide step-by-step instructions on how to use the code effectively.
+
+---
+
+This work draws inspiration from [Transtab by RyanWangZf](https://github.com/RyanWangZf/transtab), and some parts of the implementation have been adapted from this repository.
 
