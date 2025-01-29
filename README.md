@@ -2,6 +2,9 @@
 
 Welcome to the repository for **"TabMixer: Advancing Tabular Data Analysis with an Enhanced MLP-Mixer Approach"**.  
 
+## Paper Acceptance 🎉  
+This work has been accepted for publication in **Journal of Pattern Analysis and Applications**.
+
 ## Requirements
 
 ### Prerequisites
