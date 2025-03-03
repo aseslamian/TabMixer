@@ -52,5 +52,21 @@ You can find example datasets and usage scenarios in the **`Example`** folder. T
 
 ---
 
+## Citation
+
+If you use this code or reference our study in your work, please cite:
+
+```bibtex
+@article{eslamian2025tabmixer,
+  title={TabMixer: advancing tabular data analysis with an enhanced MLP-mixer approach},
+  author={Eslamian, Ali and Cheng, Qiang},
+  journal={Pattern Analysis and Applications},
+  volume={28},
+  number={2},
+  pages={1--17},
+  year={2025},
+  publisher={Springer}
+}
+
 This work draws inspiration from [Transtab by RyanWangZf](https://github.com/RyanWangZf/transtab), and some parts of the implementation have been adapted from this repository.
 
