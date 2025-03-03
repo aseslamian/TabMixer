@@ -67,6 +67,6 @@ If you use this code or reference our study in your work, please cite:
   year={2025},
   publisher={Springer}
 }
-
+```
 This work draws inspiration from [Transtab by RyanWangZf](https://github.com/RyanWangZf/transtab), and some parts of the implementation have been adapted from this repository.
 
