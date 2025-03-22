@@ -67,7 +67,7 @@ model = TabMixer(
     dim_feedforward=256  # hidden dimension inside the MLP blocks
 )
 
-x = torch.randn(1, 16, 10)
+x = torch.randn(1, 10, 16)
 
 pred = model(x)
 
