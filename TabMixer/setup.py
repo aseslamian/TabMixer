@@ -7,16 +7,16 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="Your Name",
-    author_email="your.email@example.com",
-    url="https://github.com/yourusername/TabMixer",  # update with your repo URL
+    author_email="aseslamian@gmail.com",
+    url="https://github.com/aseslamian/TabMixer",  # update with your repo URL
     packages=find_packages(),
     install_requires=[
         "torch>=1.8.0",  # specify the minimum version required
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",  # or your chosen license
+        "License :: OSI Approved :: MIT License", 
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.9',
 )
