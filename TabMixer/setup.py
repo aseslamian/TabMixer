@@ -5,8 +5,8 @@ setup(
     version="0.1.0",
     description="A TabMixer module for mixing tabular data using MLP blocks",
     long_description=open("README.md").read(),
-    long_description_content_type="text/markdown",
-    author="Your Name",
+    long_description_content_type="Enhanced MLP-Mixer",
+    author="Ali Eslamian",
     author_email="aseslamian@gmail.com",
     url="https://github.com/aseslamian/TabMixer",  # update with your repo URL
     packages=find_packages(),
