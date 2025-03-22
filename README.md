@@ -51,7 +51,28 @@ python Feature_incremental.py
 You can find example datasets and usage scenarios in the **`Example`** folder. These examples provide step-by-step instructions on how to use the code effectively.
 
 ---
+## Usage
 
+```bash
+pip install TabMixer
+```
+
+```python
+import torch
+from tabmixer import TabMixer 
+
+model = TabMixer(
+    dim_tokens=10,       # analogous to 'patches' or 'tokens'
+    dim_features=16,     # analogous to 'channels' or 'features'
+    dim_feedforward=256  # hidden dimension inside the MLP blocks
+)
+
+x = torch.randn(1, 16, 10)
+
+pred = model(x)
+
+```
+---
 ## Citation
 
 If you use this code or reference our study in your work, please cite:
