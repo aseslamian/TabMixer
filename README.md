@@ -73,7 +73,7 @@ x = torch.randn(1, 10, 16)
 pred = model(x)
 
 ```
-![Alt text]([TabMixer.jpg](https://github.com/aseslamian/TabMixer/blob/main/TabMixer.JPG))
+![TabMixer Architecture](https://raw.githubusercontent.com/aseslamian/TabMixer/main/TabMixer.JPG)
 
 ---
 ## Citation
