@@ -52,6 +52,7 @@ You can find example datasets and usage scenarios in the **`Example`** folder. T
 
 ---
 ## Usage
+If you intend to use TabMixer block as seperate module:
 
 ```bash
 pip install TabMixer
@@ -72,6 +73,8 @@ x = torch.randn(1, 10, 16)
 pred = model(x)
 
 ```
+![Alt text](TabMixer.jpg)
+
 ---
 ## Citation
 
