@@ -5,25 +5,23 @@ import numpy as np
 import pandas as pd
 import torch.nn as nn
 import torch.optim as optim
-from tabpfn import TabPFNClassifier
-from DataLoader import features_02, target
 from tabmixer import TabMixer
-from sklearn.metrics import accuracy_score, roc_auc_score
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder, label_binarize
 from sklearn.metrics import accuracy_score, roc_auc_score
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.preprocessing import LabelEncoder, label_binarize, StandardScaler
 
-# Load data
+########################### YOU SHOULD DO ###########################
+# 1 # Load your data
 file_path = '/path/to/your/data/your_Excel_File.csv'
 data = pd.read_csv(file_path)
 
+# 2 # Define your features and label
 features = ['feature1', 'feature2','feature3','feature4','feature5','feature6']
 target = ['ClassLabels']
 
+# 3 # Define number of classes
 NUM_CLASS = 3
-
+######################################################################
 
 ## Feature Engineering & Data Preprocessing 
 data[features] = data[features].apply(pd.to_numeric, errors='coerce')
